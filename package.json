@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/wanglu3576667/Vue--/issues"
   },
-  "homepage": "https://github.com/wanglu3576667/Vue--#readme"
+  "homepage": "https://github.com/wanglu3576667/Vue--#readme",
+  "dependencies": {
+    "vue": "^2.6.10"
+  }
 }
