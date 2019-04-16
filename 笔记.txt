@@ -1,0 +1,24 @@
+第一课
+    1.Vue.component('组件名'，{
+        template：<...>...<...>
+    })
+    
+    可将组件插入new Vue创建的vue实例中，以标签的形式插入，标签名就是组件名，会自动转换成template（模板）的值
+
+    2.css变量， 以--开头接变量名，var（变量名）的形式使用，配合：root原则器，所有元素都可使用该选择期内变量。
+    html body div也可，就是一个生效范围。
+
+    3.github创建版权文件，LICENSE
+
+    4.安装parcel打包编译工具，配合vue使用需要在package.json内添加
+    "alias": {
+        "vue" : "./node_modules/vue/dist/vue.common.js"
+     }
+
+    5.npx parcel xxx.html 运行parcel
+
+    6.npm install -D  安装的包仅对开发者使用 对用忽使用不用-D
+
+    7.import 变量名 from 路径  引入文件 引入vue：  import  Vue from 'vue'
+
+    8.vue的单文件组件 xxx.vue 将css（style） html（template） js（JavaScript）全部写入该文件 
